@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  h1 {
+    @apply text-2xl;
+  }
+} */
+
+/* @layer components {
+  .btn {
+    @apply w-24 m-4 p-4 rounded-sm bg-red-500 text-center text-white;
+  }
+} */
