@@ -16,7 +16,7 @@ pnpm install
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## Production
@@ -24,27 +24,26 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+pnpm build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+pnpm preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-
 ## Tailwind CSS
 
-tailwindcssをインストールします
+tailwindcssインストール
 
 ```bash
 pnpm install --save-dev @nuxtjs/tailwindcss
 ```
 
-以下の項目をnuxt.config.tsへ追加します
+nuxt.config.tsへ設定追加
 
 ```typescript
 {
@@ -54,7 +53,7 @@ pnpm install --save-dev @nuxtjs/tailwindcss
 }
 ```
 
-以下のコマンドを実行してtailwind.cssを作成します
+tailwind.css作成
 
 ```bash
 mkdir ./assets/css
@@ -62,7 +61,7 @@ cd ./assets/css
 touch tailwind.css
 ```
 
-以下の項目をtailwind.cssへ追加します
+tailwind.cssへ設定追加
 
 ```css
 @tailwind base;
@@ -70,16 +69,16 @@ touch tailwind.css
 @tailwind utilities;
 ```
 
-以下のコマンドを実行してtailwind.css.jsファイルを作成します
+tailwind.config.jsファイル作成
 
 ```bash
 npx tailwindcss init
 ```
 
-拡張子をtsに変更します
-tailwind.css.js → tailwind.css.ts
+拡張子をtsに変更
+tailwind.config.js → tailwind.config.ts
 
-tailwind.css.tsを以下に変更します
+tailwind.config.tsを以下に変更
 
 ```typescript
 /** @type {import('tailwindcss').Config} */
@@ -95,3 +94,10 @@ export default {
 }
 ```
 
+## Pinia
+
+## ESLint
+
+## Prettier
+
+## vitest
